@@ -8,7 +8,10 @@ To run the notebooks, use either a virtual environment (local desktop) or Google
 1. Setup a python virtual environment and activate it.
 2. From a terminal, type:
 
-   `>jupyter lab`
+   ```
+   >pip install jupyterlab
+   >jupyter lab
+   ```
 3. Once the browser launches, run all cells of 00-setup.ipynb.
    This will install all necessary libraries needed for the notebooks.
 
